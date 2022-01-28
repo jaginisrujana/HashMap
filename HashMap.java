@@ -84,6 +84,7 @@ class HashMap<T>
 			if(keyvalue[i]!=null && key.equals(keyvalue[i].key))
 			{
 				keyvalue[i] = null;
+				bit[i]=true;
 				return true;
 			}
 			i = (i+j**2)%maxsize;
