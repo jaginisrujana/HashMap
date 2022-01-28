@@ -17,8 +17,8 @@ class HashMap<T>
 	int maxsize;
 	KeyValue<T>[] keyvalue;
 	boolean[] bit;
-	public LinearProbing(){ }
-	public LinearProbing(int capacity)
+	public HashMap(){ }
+	public HashMap(int capacity)
 	{
 		currentsize = 0;
 		maxsize = capacity;
